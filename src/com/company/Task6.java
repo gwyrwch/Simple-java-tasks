@@ -1,7 +1,7 @@
 package com.company;
 
 public class Task6 {
-    private static long INF = (long)8e9;
+    private static final long INF = (long)8e9;
 
     private static long findNLargerThan(double a1, double d, double maxValue) {
         long l = 1, r = Task6.INF;

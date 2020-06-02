@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Task8 {
-    private static double EPS = 1e-11;
+    private static final double EPS = 1e-11;
 
     private static double y(double x, double c) {
         if (Math.abs(x - 15) < Task8.EPS) {
