@@ -60,8 +60,8 @@ public class Main {
     }
 
     private static void solveTask6() {
-        int a1 = 0;
-        int d = 1;
+        int a1 = 10000;
+        int d = -1;
         Pair<Long, Long> result = Task6.solve(a1, d);
 
         System.out.println("\nResult of Task6:");
@@ -70,7 +70,7 @@ public class Main {
             System.out.printf("Long overflows with n=%d\n", result.getSecond());
         }
         else {
-            System.out.println("Wrong arithmetic progression, a1 must be non-negative and d must be positive");
+            System.out.println("Never overflows");
         }
     }
 
