@@ -1,4 +1,4 @@
-package com.company;
+package by.epamtc.jwd.task2;
 
 public class Pair<U, V> {
     private U first;
